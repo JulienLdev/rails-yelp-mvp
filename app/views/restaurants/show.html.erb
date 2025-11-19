@@ -1,0 +1,10 @@
+
+<h1><%= @restaurant.name %></h1>
+
+<h3>Catégorie : <%= @restaurant.category %></h3>
+<h3>Adresse : <%= @restaurant.address %></h3>
+<h3>Téléphone : <%= @restaurant.phone_number %></h3>
+
+<%# à changer le lien de redirection <%= link_to "Ajouter une avis", new_restaurant_review_path %>
+
+<%= link_to "Back to restaurants", restaurants_path %>
